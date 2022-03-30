@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="./normalize.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3975b63a05.js" crossorigin="anonymous"></script>
+    <script src="main-game.js"></script>
+    <title>Rock, Paper, Scissors!</title>
+  </head>
+  <body>
+    <div class="title-div">
+      <h1>Rock, Paper, Scissors!</h1>
+    </div>
+    <div class="game-div">
+      <h4 class="winner-label">Who will win?</h4>
+      <div class="choices">
+        <span class="counter" id="player-counter">0</span>
+        <div class="choice user-choice">
+          <i class="fa-regular fa-hand"></i>
+        </div>
+        <div class="choice computer-choice">
+          <i class="fa-regular fa-hand-back-fist"></i>
+        </div>
+        <span class="counter" id="computer-counter">0</span>
+      </div>
+      <h4>Your choice</h4>
+      <div class="choice-menu">
+        <div class="choice player-choice" id="rock-choice">
+          <i class="fa-regular fa-hand-back-fist" id="rock-icon"></i>
+        </div>
+        <div class="choice player-choice" id="paper-choice">
+          <i class="fa-regular fa-hand" id="paper-icon"></i>
+        </div>
+        <div class="choice player-choice" id="scissors-choice">
+          <i class="fa-regular fa-hand-scissors" id="scissors-icon"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
